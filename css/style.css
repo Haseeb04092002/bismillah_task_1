@@ -1,0 +1,272 @@
+.carousel-caption{
+	background-color: rgba( 171, 178, 185 , 0.5);
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	justify-content: center;
+	margin: auto;
+	border-radius: 7px;
+}
+.btn-modal{
+	background-color: #f76900;
+	color: black;
+}
+#TopBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#TopBtn:hover {
+	background-color: black;
+}
+#Spinner{
+	opacity: 1;
+	transition: all 4s ease;
+}
+.spinner-wrapper{
+	background-color: black;
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 5001;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.spinner-border{
+	/*	margin-top: 200px;*/
+	width: 150px;
+	height: 150px;
+	border-width: 15px;
+}
+.HeroHeading{
+	background-color: transparent;
+	color:#154360;
+	justify-content: center;
+	margin: auto;
+}
+section{
+	margin-top: 160px;
+/*	margin-bottom: 120px;*/
+}
+section div h1{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+	background-color: #154360;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+}
+.Mynavbarbrand{
+	font-size: 24px;
+	font-weight: bold;
+}
+.nav-link{
+	font-size: 18px;
+	font-weight: bold;
+}
+.nav-link{
+	margin-right: 25px;
+	transition: all .3s ease;
+	padding: 5px;
+	color: black;
+}
+
+.nav-link:hover{
+	padding: 5px;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+}
+#hero{
+/*	background-color: #f76900;*/
+	background-image: linear-gradient(#f76900, yellow);
+}
+#hero .HeroText h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+#hero .HeroText h4{
+	font-size: 30px;
+	font-weight: 500;
+}
+.MySlider{
+	width: 100%;
+}
+.MySlider .carousel-inner{
+	border: 10px solid black;
+	border-radius: 10px;
+}
+.MySlider .carousel-item{
+	max-height: 600px;
+	width: 100%;
+}
+.MySlider .carousel-item img{
+
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
+}
+
+
+.accordion-button {
+	font-size: 25px; 
+	font-weight: bold;
+}
+
+.accordion-body {
+	background-color: #fcf3cf; 
+	color: black;
+	font-size: 18px; 
+}
+
+.accordion-button.collapsed {
+	background-color: #f39c12; 
+	color: #154360;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #f1c40f; 
+	color: #154360; 
+}
+
+.ZoomCard{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: transform 0.5s ease;
+}
+.ZoomCard:hover{
+	transform: scale(1.1);
+}
+
+/* Basic styling for the card */
+.SlideCard {
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+
+/* Hidden card body by default */
+.SlideCard .hidden-card-body {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-out;
+}
+
+/* On hover, smoothly slide down the hidden card body */
+.SlideCard:hover .hidden-card-body {
+	max-height: 300px; /* Adjust this based on the actual content height */
+	padding: 15px; /* Add padding when the content slides down */
+
+}
+.Mycontainer{
+	position: absolute;
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  height: 430px;
+  width: 350px;
+  text-align: center;
+  border-radius: 5px;
+}
+.front-face, .back-face{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #ebf8f9;
+	border-radius: 5px;
+	backface-visibility: hidden;
+	box-shadow: 0 2px 3px rgba(0,0,0,.2);
+	transition: transform .4s linear;
+}
+.cover{
+/*  background: linear-gradient(75deg, #8e44ad, #2980b9);*/
+height: 115px;
+width: 100%;
+border-radius: 5px 5px 0 0;
+}
+.profile{
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+	padding: 5px;
+	background: white;
+	margin-top: 40px;
+}
+.name{
+	font-size: 30px;
+	padding-top: 75px;
+}
+.tag{
+	padding: 5px 0;
+}
+.about{
+	margin-top: 10px;
+	padding: 0px 35px;
+	font-size: 15px;
+}
+h1{
+	color: #0d0d0d;
+}
+p{
+	padding: 20px;
+	color: #262626;
+	text-align: justify;
+}
+i{
+	font-size: 30px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+i.fa-facebook-square{
+	padding-left: 0;
+	color: #4267b2;
+}
+i.fa-twitter-square{color: #38A1F3}
+i.fa-instagram{color: #d72888}
+i.fa-youtube{color: #eb1c14}
+i.fa-linkedin{color: #0077B5}
+
+.back-face{
+	transform: perspective(800px) rotateY(-180deg);
+}
+.front-face{
+	transform: perspective(800px) rotateY(0deg);
+}
+.Mycontainer:hover > .back-face{
+	transform: perspective(800px) rotateY(0deg);
+}
+.Mycontainer:hover > .front-face{
+	transform: perspective(800px) rotateY(180deg);
+}
+
+
+.card-title{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+	background-color: #ccd1d1;
+	border-radius: 7px;
+	text-align: center;
+}
