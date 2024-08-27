@@ -1,0 +1,42 @@
+@media (max-width:400px){
+
+	.navbar-brand span{
+		display: none;
+	}
+	.HeroImage{
+		display: none;
+	}
+	.HeroHeading{
+		font-size: 20px;
+	}
+	section{
+		margin-top: 60px;
+	}
+	section div h1{
+		font-size: 20px;
+		font-weight: bold;
+		padding: 5px;
+		border: none;
+		border-radius: 5px;
+	}
+	#HoverCards .col-md-6, .col-sm-6{
+		margin-top: 30px;
+	}
+	#MyAccordian{
+		margin-top: 560px;
+		z-index: 0;
+	}
+	#MyToolTip button{
+		margin-top: 20px;
+	}
+	#FormValidation form{
+		width: 100%;
+	}
+	#TopBtn{
+		display: none;
+	}
+	#Spinner{
+		display: none;
+	}
+
+}
